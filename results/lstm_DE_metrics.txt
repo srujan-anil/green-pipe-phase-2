@@ -1,0 +1,5 @@
+Zone: DE
+MAPE: 10.79%
+RMSE: 42.06 gCO2/kWh
+Train size: 556
+Test size: 140

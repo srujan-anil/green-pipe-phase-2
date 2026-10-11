@@ -1,0 +1,254 @@
+{
+  "adaptive": {
+    "strategy": "adaptive",
+    "total_runs": 6,
+    "complete_runs": 6,
+    "incomplete_runs": 0,
+    "incomplete_run_files": [],
+    "incomplete_run_statuses": [],
+    "seeds_run": [
+      1,
+      2,
+      3,
+      7,
+      42,
+      123
+    ],
+    "metrics": {
+      "co2_kg": {
+        "mean": 0.0002877593713528583,
+        "std": 0.00013566949780614276,
+        "n": 6,
+        "pct_change_vs_baseline": 21.157790755387584
+      },
+      "energy_kwh": {
+        "mean": 0.0011427398435677344,
+        "std": 0.0005392673820715963,
+        "n": 6,
+        "pct_change_vs_baseline": 21.324597542534185
+      },
+      "runtime_seconds": {
+        "mean": 244.33695668333345,
+        "std": 99.48405933270934,
+        "n": 6,
+        "pct_change_vs_baseline": 42.17287608380696
+      },
+      "accuracy": {
+        "mean": 0.9824166666666666,
+        "std": 0.0008975893641675418,
+        "n": 6,
+        "pct_change_vs_baseline": 0.1886664173776973
+      }
+    }
+  },
+  "baseline": {
+    "strategy": "baseline",
+    "total_runs": 6,
+    "complete_runs": 6,
+    "incomplete_runs": 0,
+    "incomplete_run_files": [],
+    "incomplete_run_statuses": [],
+    "seeds_run": [
+      1,
+      2,
+      3,
+      7,
+      42,
+      123
+    ],
+    "metrics": {
+      "co2_kg": {
+        "mean": 0.00023750793866308788,
+        "std": 0.00012549182652135847,
+        "n": 6,
+        "pct_change_vs_baseline": 0.0
+      },
+      "energy_kwh": {
+        "mean": 0.0009418863665853997,
+        "std": 0.0004966997959009003,
+        "n": 6,
+        "pct_change_vs_baseline": 0.0
+      },
+      "runtime_seconds": {
+        "mean": 171.8590517500002,
+        "std": 69.4039241544743,
+        "n": 6,
+        "pct_change_vs_baseline": 0.0
+      },
+      "accuracy": {
+        "mean": 0.9805666666666667,
+        "std": 0.002357682477914848,
+        "n": 6,
+        "pct_change_vs_baseline": 0.0
+      }
+    }
+  },
+  "green_pipe": {
+    "strategy": "green_pipe",
+    "total_runs": 6,
+    "complete_runs": 6,
+    "incomplete_runs": 0,
+    "incomplete_run_files": [],
+    "incomplete_run_statuses": [],
+    "seeds_run": [
+      1,
+      2,
+      3,
+      7,
+      42,
+      123
+    ],
+    "metrics": {
+      "co2_kg": {
+        "mean": 0.00030733628942601247,
+        "std": 0.00014785844519891282,
+        "n": 6,
+        "pct_change_vs_baseline": 29.4004281103118
+      },
+      "energy_kwh": {
+        "mean": 0.0012196422201059117,
+        "std": 0.0005869603035294958,
+        "n": 6,
+        "pct_change_vs_baseline": 29.489316691933272
+      },
+      "runtime_seconds": {
+        "mean": 252.54484553333324,
+        "std": 113.79677909706344,
+        "n": 6,
+        "pct_change_vs_baseline": 46.94881820988109
+      },
+      "accuracy": {
+        "mean": 0.9824166666666666,
+        "std": 0.0008975893641675418,
+        "n": 6,
+        "pct_change_vs_baseline": 0.1886664173776973
+      }
+    }
+  },
+  "multiregion": {
+    "strategy": "multiregion",
+    "total_runs": 6,
+    "complete_runs": 6,
+    "incomplete_runs": 0,
+    "incomplete_run_files": [],
+    "incomplete_run_statuses": [],
+    "seeds_run": [
+      1,
+      2,
+      3,
+      7,
+      42,
+      123
+    ],
+    "metrics": {
+      "co2_kg": {
+        "mean": 0.00026612989529139943,
+        "std": 0.00013079495001418613,
+        "n": 6,
+        "pct_change_vs_baseline": 12.050947344927556
+      },
+      "energy_kwh": {
+        "mean": 0.0010566207089142189,
+        "std": 0.0005184282731239249,
+        "n": 6,
+        "pct_change_vs_baseline": 12.181335923224275
+      },
+      "runtime_seconds": {
+        "mean": 219.92217373333347,
+        "std": 108.26089783713267,
+        "n": 6,
+        "pct_change_vs_baseline": 27.966593259952177
+      },
+      "accuracy": {
+        "mean": 0.9805666666666667,
+        "std": 0.002357682477914848,
+        "n": 6,
+        "pct_change_vs_baseline": 0.0
+      }
+    }
+  },
+  "predictive": {
+    "strategy": "predictive",
+    "total_runs": 6,
+    "complete_runs": 6,
+    "incomplete_runs": 0,
+    "incomplete_run_files": [],
+    "incomplete_run_statuses": [],
+    "seeds_run": [
+      1,
+      2,
+      3,
+      7,
+      42,
+      123
+    ],
+    "metrics": {
+      "co2_kg": {
+        "mean": 0.00024367570214595756,
+        "std": 0.00012699051350971349,
+        "n": 6,
+        "pct_change_vs_baseline": 2.5968662426980345
+      },
+      "energy_kwh": {
+        "mean": 0.0009663062534881989,
+        "std": 0.0005036174386891955,
+        "n": 6,
+        "pct_change_vs_baseline": 2.59265743396712
+      },
+      "runtime_seconds": {
+        "mean": 199.02760536666736,
+        "std": 94.81481041239799,
+        "n": 6,
+        "pct_change_vs_baseline": 15.808625347350747
+      },
+      "accuracy": {
+        "mean": 0.9805666666666667,
+        "std": 0.002357682477914848,
+        "n": 6,
+        "pct_change_vs_baseline": 0.0
+      }
+    }
+  },
+  "reactive": {
+    "strategy": "reactive",
+    "total_runs": 6,
+    "complete_runs": 6,
+    "incomplete_runs": 0,
+    "incomplete_run_files": [],
+    "incomplete_run_statuses": [],
+    "seeds_run": [
+      1,
+      2,
+      3,
+      7,
+      42,
+      123
+    ],
+    "metrics": {
+      "co2_kg": {
+        "mean": 0.00024467058963795836,
+        "std": 0.00010482468935544046,
+        "n": 6,
+        "pct_change_vs_baseline": 3.0157522376676917
+      },
+      "energy_kwh": {
+        "mean": 0.00097178348214316,
+        "std": 0.0004154537575194987,
+        "n": 6,
+        "pct_change_vs_baseline": 3.174174360984292
+      },
+      "runtime_seconds": {
+        "mean": 191.74224318333341,
+        "std": 90.53212106549309,
+        "n": 6,
+        "pct_change_vs_baseline": 11.569475818042386
+      },
+      "accuracy": {
+        "mean": 0.9805666666666667,
+        "std": 0.002357682477914848,
+        "n": 6,
+        "pct_change_vs_baseline": 0.0
+      }
+    }
+  }
+}

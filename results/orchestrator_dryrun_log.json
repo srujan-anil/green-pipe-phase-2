@@ -1,0 +1,70 @@
+[
+  {
+    "epoch": 1,
+    "carbon": 150,
+    "carbon_source": "mocked",
+    "forecast_model": null,
+    "decision": "TRAIN",
+    "reason": "Current carbon 150.0 gCO2/kWh already below low threshold 200 \u2014 train now, no need to consult forecast",
+    "batch_size": 64,
+    "wait_hours": 0,
+    "used_forecast": false,
+    "loss": 0.19726988484463426,
+    "checkpoint_save_time": 0.019612899999629008,
+    "checkpoint_path": "D:\\green-pipe-r\\checkpoints\\_dryrun\\checkpoint_epoch_1.pt"
+  },
+  {
+    "epoch": 2,
+    "carbon": 250,
+    "carbon_source": "mocked",
+    "forecast_model": "mocked_arima",
+    "decision": "WAIT",
+    "reason": "Current carbon 250.0 gCO2/kWh in WAIT band. Forecast shows 170.0 gCO2/kWh at hour +3 (32% cleaner, exceeds 15% threshold) \u2014 waiting",
+    "batch_size": 32,
+    "wait_hours": 3,
+    "used_forecast": true,
+    "loss": null
+  },
+  {
+    "epoch": 2,
+    "carbon": 250,
+    "carbon_source": "mocked",
+    "forecast_model": "mocked_arima",
+    "decision": "TRAIN",
+    "reason": "Current carbon 250.0 gCO2/kWh in WAIT band. Forecast's best window (+0h, 245.0 gCO2/kWh) does not improve enough (2% < 15%) \u2014 training now",
+    "batch_size": 32,
+    "wait_hours": 0,
+    "used_forecast": true,
+    "loss": 0.07563413580643634,
+    "checkpoint_save_time": 0.00888570000006439,
+    "checkpoint_path": "D:\\green-pipe-r\\checkpoints\\_dryrun\\checkpoint_epoch_2.pt"
+  },
+  {
+    "epoch": 3,
+    "carbon": 350,
+    "carbon_source": "mocked",
+    "forecast_model": "mocked_arima",
+    "decision": "PAUSE",
+    "reason": "Current carbon 350.0 gCO2/kWh above high threshold 300 \u2014 pause regardless of forecast",
+    "batch_size": 16,
+    "wait_hours": 0,
+    "used_forecast": false,
+    "checkpoint_save_time": 0.009097499999370484,
+    "checkpoint_path": "D:\\green-pipe-r\\checkpoints\\_dryrun\\checkpoint_epoch_3.pt",
+    "loss": null
+  },
+  {
+    "epoch": 3,
+    "carbon": 150,
+    "carbon_source": "mocked",
+    "forecast_model": null,
+    "decision": "TRAIN",
+    "reason": "Current carbon 150.0 gCO2/kWh already below low threshold 200 \u2014 train now, no need to consult forecast",
+    "batch_size": 64,
+    "wait_hours": 0,
+    "used_forecast": false,
+    "loss": 0.032829974007644834,
+    "checkpoint_save_time": 0.009290500000133761,
+    "checkpoint_path": "D:\\green-pipe-r\\checkpoints\\_dryrun\\checkpoint_epoch_3.pt"
+  }
+]

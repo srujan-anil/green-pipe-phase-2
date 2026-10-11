@@ -1,0 +1,6 @@
+Zone: DE
+ARIMA Order: (2, 1, 0)
+MAPE: 15.38%
+RMSE: 57.54 gCO2/kWh
+Train size: 576
+Test size: 144

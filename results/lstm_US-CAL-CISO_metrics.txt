@@ -1,0 +1,5 @@
+Zone: US-CAL-CISO
+MAPE: 26.68%
+RMSE: 50.85 gCO2/kWh
+Train size: 556
+Test size: 140

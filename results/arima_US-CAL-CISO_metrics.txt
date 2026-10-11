@@ -1,0 +1,6 @@
+Zone: US-CAL-CISO
+ARIMA Order: (1, 1, 1)
+MAPE: 31.63%
+RMSE: 72.07 gCO2/kWh
+Train size: 576
+Test size: 144

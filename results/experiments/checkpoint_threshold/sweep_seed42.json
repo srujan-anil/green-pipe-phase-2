@@ -1,0 +1,41 @@
+[
+  {
+    "model": "Tier1_Small",
+    "param_count": 402986,
+    "checkpoint_size_kb": 4730.4736328125,
+    "epochs": 3,
+    "batch_size": 64,
+    "avg_epoch_time_s": 22.70382343333525,
+    "avg_checkpoint_save_s": 0.00812150000516946,
+    "avg_checkpoint_restore_s": 0.020379466674057767,
+    "save_pct_of_epoch": 0.03577150795334736,
+    "restore_pct_of_epoch": 0.08976226728461643,
+    "total_overhead_pct_of_epoch": 0.1255337752379638
+  },
+  {
+    "model": "Tier2_Medium",
+    "param_count": 824458,
+    "checkpoint_size_kb": 9671.8486328125,
+    "epochs": 3,
+    "batch_size": 64,
+    "avg_epoch_time_s": 52.99877526666387,
+    "avg_checkpoint_save_s": 0.013726133339029426,
+    "avg_checkpoint_restore_s": 0.027567099993272375,
+    "save_pct_of_epoch": 0.025898963268426955,
+    "restore_pct_of_epoch": 0.05201459817621867,
+    "total_overhead_pct_of_epoch": 0.07791356144464563
+  },
+  {
+    "model": "Tier3_Large",
+    "param_count": 3518986,
+    "checkpoint_size_kb": 41255.0986328125,
+    "epochs": 3,
+    "batch_size": 64,
+    "avg_epoch_time_s": 206.3737482666717,
+    "avg_checkpoint_save_s": 0.04549066667095758,
+    "avg_checkpoint_restore_s": 0.042079166654730216,
+    "save_pct_of_epoch": 0.022042855282240415,
+    "restore_pct_of_epoch": 0.02038978649569151,
+    "total_overhead_pct_of_epoch": 0.04243264177793193
+  }
+]

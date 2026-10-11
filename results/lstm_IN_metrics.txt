@@ -1,0 +1,5 @@
+Zone: IN
+MAPE: 9.45%
+RMSE: 65.79 gCO2/kWh
+Train size: 556
+Test size: 140
